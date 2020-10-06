@@ -1,9 +1,14 @@
 ## Web Frameworks
 
-https://github.com/schollz/progressbar
-https://github.com/mongodb/mongo-go-driver
+https://github.com/dgraph-io/dgraph
+https://github.com/labstack/echo
+https://github.com/gin-gonic/gin
 
+## Database
+
+https://github.com/mongodb/mongo-go-driver
+https://github.com/go-gorm/gorm
 
 ## Golang
 
-https://github.com/dgraph-io/dgraph
+https://github.com/schollz/progressbar

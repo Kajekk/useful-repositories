@@ -27,7 +27,9 @@ type Repository struct {
 
 const (
 	header = `
+- [Golang](#golang)
 - [Web Frameworks](#web-frameworks)
+- [Database](#database)
 `
 
 	tableHeader = `
