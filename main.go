@@ -26,16 +26,17 @@ type Repository struct {
 
 const (
 	tableHeader = `
-	| Repo | Stars  | Forks  | Description |
-	| ---- | :----: | :----: | ----------- |
-	`
+| Repo | Stars  | Forks  | Description |
+| ---- | :----: | :----: | ----------- |
+`
 	footer = "\n*Last Update: %v*\n"
 )
 
 func main() {
-	accessToken := os.Getenv("github_token")
+	accessToken := getAccessToken()
 	if accessToken == "" {
-		accessToken = "731e6fcb50841bfdd9ba99fe90d171c024592177"
+		_ = fmt.Errorf("Please provide valid access token")
+		os.Exit(1)
 	}
 
 	writeTableHeader()
@@ -88,6 +89,17 @@ func main() {
 		}
 
 	}
+}
+
+func getAccessToken() string {
+	tokenBytes, err := ioutil.ReadFile("access-token.tok")
+	if err != nil {
+		fmt.Println(err)
+		token := os.Getenv("github_token")
+		return token
+	}
+
+	return strings.TrimSpace(string(tokenBytes))
 }
 
 func writeTableHeader() {
