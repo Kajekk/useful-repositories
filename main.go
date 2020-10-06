@@ -20,7 +20,7 @@ type Repository struct {
 	Forks          int       `json:"forks_count"`
 	Issues         int       `json:"open_issues_count"`
 	Created        time.Time `json:"created_at"`
-	Updated        time.Time `json:"updated_at"`
+	Updated        string    `json:"updated_at"`
 	URL            string    `json:"html_url"`
 	LastCommitDate time.Time `json:"-"`
 }
@@ -31,8 +31,8 @@ const (
 `
 
 	tableHeader = `
-| Repo | Stars  | Forks  | Description |
-| ---- | :----: | :----: | ----------- |
+| Repo | Stars  | Forks  | Issues | Description | Last Updated |
+| ---- | :----: | :----: | ------ | ----------- | ------------ |
 `
 	footer = "\n*Last Update: %v*\n"
 )
@@ -147,7 +147,7 @@ func writeBody(repos []Repository) {
 
 	defer file.Close()
 	for _, repo := range repos {
-		writeLine := fmt.Sprintf("| [%s](%s) | **%d** | **%d** | %s |\n", repo.Name, repo.URL, repo.Stars, repo.Forks, repo.Description)
+		writeLine := fmt.Sprintf("| [%s](%s) | **%d** | **%d** | **%d** | %s | %s |\n", repo.Name, repo.URL, repo.Stars, repo.Forks, repo.Issues, repo.Description, repo.Updated)
 		_, err = file.WriteString(writeLine)
 		if err != nil {
 			fmt.Println(err)
