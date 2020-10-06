@@ -32,7 +32,7 @@ const (
 
 	tableHeader = `
 | Repo | Stars  | Forks  | Issues | Description | Last Updated |
-| ---- | :----: | :----: | ------ | ----------- | ------------ |
+| ---- | :----: | :----: | :----: | ----------- | :----------: |
 `
 	footer = "\n*Last Update: %v*\n"
 )
