@@ -3,6 +3,8 @@
 https://github.com/dgraph-io/dgraph
 https://github.com/labstack/echo
 https://github.com/gin-gonic/gin
+https://github.com/gorilla/mux
+https://github.com/astaxie/beego
 
 ## Database
 
@@ -11,4 +13,5 @@ https://github.com/go-gorm/gorm
 
 ## Golang
 
+https://github.com/rocketlaunchr/remember-go
 https://github.com/schollz/progressbar
