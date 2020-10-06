@@ -7,7 +7,7 @@ email="tangquocvinh1000@gmail.com"
 # Branch
 branch="main"
 # Go file
-go_script="auto-update.go"
+go_script="main.go"
 
 current_time=$(date +"%Y-%m-%dT%H")
 
