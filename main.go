@@ -7,6 +7,7 @@ import (
 	"net/http"
 	"os"
 	"regexp"
+	"sort"
 	"strings"
 	"time"
 )
@@ -25,6 +26,10 @@ type Repository struct {
 }
 
 const (
+	header = `
+- [Web Frameworks](#web-frameworks)
+`
+
 	tableHeader = `
 | Repo | Stars  | Forks  | Description |
 | ---- | :----: | :----: | ----------- |
@@ -39,7 +44,7 @@ func main() {
 		os.Exit(1)
 	}
 
-	writeTableHeader()
+	writeHeader()
 	var repos []Repository
 
 	bytesContent, err := ioutil.ReadFile("repo.list")
@@ -52,6 +57,7 @@ func main() {
 	fmt.Println(lines)
 	for _, url := range lines {
 		if strings.HasPrefix(url, "##") {
+			writeTableHeader(url)
 			continue
 		}
 		prefixGithub := "https://github.com/"
@@ -102,14 +108,28 @@ func getAccessToken() string {
 	return strings.TrimSpace(string(tokenBytes))
 }
 
-func writeTableHeader() {
+func writeHeader() {
 	fmt.Println("write Header")
 	file, err := os.OpenFile("README_TEMP.md", os.O_RDWR|os.O_CREATE|os.O_TRUNC, 0666)
 	if err != nil {
 		fmt.Println(err)
 	}
 	defer file.Close()
-	_, err = file.WriteString(tableHeader)
+	_, err = file.WriteString(header)
+	if err != nil {
+		fmt.Println(err)
+	}
+}
+
+func writeTableHeader(category string) {
+	fmt.Println("write Table Header")
+	file, err := os.OpenFile("README_TEMP.md", os.O_RDWR|os.O_APPEND, 0666)
+	if err != nil {
+		fmt.Println(err)
+	}
+	defer file.Close()
+	writeLine := fmt.Sprintf("\n%s\n%s", category, tableHeader)
+	_, err = file.WriteString(writeLine)
 	if err != nil {
 		fmt.Println(err)
 	}
@@ -121,6 +141,10 @@ func writeBody(repos []Repository) {
 	if err != nil {
 		fmt.Println(err)
 	}
+	sort.Slice(repos[:], func(i, j int) bool {
+		return repos[i].Stars > repos[j].Stars
+	})
+
 	defer file.Close()
 	for _, repo := range repos {
 		writeLine := fmt.Sprintf("| [%s](%s) | **%d** | **%d** | %s |\n", repo.Name, repo.URL, repo.Stars, repo.Forks, repo.Description)
