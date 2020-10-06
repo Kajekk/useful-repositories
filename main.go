@@ -33,8 +33,8 @@ const (
 `
 
 	tableHeader = `
-| Repo | Stars  | Forks  | Issues | Description | Last Updated |
-| ---- | :----: | :----: | :----: | ----------- | :----------: |
+| Repo | Stars  | Forks  | Issues | Description |
+| ---- | :----: | :----: | :----: | ----------- |
 `
 	footer = "\n*Last Update: %v*\n"
 )
@@ -149,7 +149,7 @@ func writeBody(repos []Repository) {
 
 	defer file.Close()
 	for _, repo := range repos {
-		writeLine := fmt.Sprintf("| [%s](%s) | **%d** | **%d** | **%d** | %s | %s |\n", repo.Name, repo.URL, repo.Stars, repo.Forks, repo.Issues, repo.Description, repo.Updated)
+		writeLine := fmt.Sprintf("| [%s](%s) | **%d** | **%d** | **%d** | %s |\n", repo.Name, repo.URL, repo.Stars, repo.Forks, repo.Issues, repo.Description)
 		_, err = file.WriteString(writeLine)
 		if err != nil {
 			fmt.Println(err)
