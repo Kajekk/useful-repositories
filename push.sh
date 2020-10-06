@@ -9,7 +9,7 @@ branch="main"
 # Go file
 go_script="main.go"
 
-current_time=$(date +"%Y-%m-%dT%H")
+current_time=$(date +"%Y-%m-%dT%H:%M:%S")
 
 cd ~/workspace/useful-repositories
 
