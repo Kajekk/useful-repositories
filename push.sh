@@ -29,4 +29,5 @@ git add -A .
 git commit -m "Auto update at $current_time"
 git push -q origin $branch
 
+echo Successfully!!!
 read
