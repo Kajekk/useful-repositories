@@ -24,3 +24,6 @@
 
 | Repo | Stars  | Forks  | Issues | Description |
 | ---- | :----: | :----: | :----: | ----------- |
+| [ristretto](https://github.com/dgraph-io/ristretto) | **2352** | **123** | **10** | A high performance memory-bound Go cache |
+| [progressbar](https://github.com/schollz/progressbar) | **1362** | **81** | **11** | A really basic thread-safe progress bar for Golang applications |
+| [remember-go](https://github.com/rocketlaunchr/remember-go) | **63** | **5** | **0** | Cache Slow Database Queries |
