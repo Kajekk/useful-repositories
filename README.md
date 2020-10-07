@@ -7,8 +7,8 @@
 
 | Repo | Stars  | Forks  | Issues | Description |
 | ---- | :----: | :----: | :----: | ----------- |
-| [gin](https://github.com/gin-gonic/gin) | **42131** | **4845** | **325** | Gin is a HTTP web framework written in Go (Golang). It features a Martini-like API with much better performance -- up to 40 times faster. If you need smashing performance, get yourself some Gin. |
-| [beego](https://github.com/astaxie/beego) | **24984** | **4977** | **702** | beego is an open-source, high-performance web framework for the Go programming language. |
+| [gin](https://github.com/gin-gonic/gin) | **42133** | **4846** | **325** | Gin is a HTTP web framework written in Go (Golang). It features a Martini-like API with much better performance -- up to 40 times faster. If you need smashing performance, get yourself some Gin. |
+| [beego](https://github.com/astaxie/beego) | **24984** | **4976** | **702** | beego is an open-source, high-performance web framework for the Go programming language. |
 | [echo](https://github.com/labstack/echo) | **18224** | **1615** | **41** | High performance, minimalist Go web framework |
 | [dgraph](https://github.com/dgraph-io/dgraph) | **14060** | **1021** | **107** | Native GraphQL Database with graph backend |
 | [mux](https://github.com/gorilla/mux) | **12840** | **1270** | **19** | A powerful HTTP router and URL matcher for building Go web servers with 🦍 |
