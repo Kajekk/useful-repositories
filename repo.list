@@ -1,6 +1,5 @@
 ## Web Frameworks
 
-https://github.com/dgraph-io/dgraph
 https://github.com/labstack/echo
 https://github.com/gin-gonic/gin
 https://github.com/gorilla/mux
@@ -10,6 +9,7 @@ https://github.com/astaxie/beego
 
 https://github.com/mongodb/mongo-go-driver
 https://github.com/go-gorm/gorm
+https://github.com/dgraph-io/dgraph
 
 ## Golang
 
