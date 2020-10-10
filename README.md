@@ -7,17 +7,17 @@
 
 | Repo | Stars  | Forks  | Issues | Description |
 | ---- | :----: | :----: | :----: | ----------- |
-| [gin](https://github.com/gin-gonic/gin) | **42221** | **4852** | **327** | Gin is a HTTP web framework written in Go (Golang). It features a Martini-like API with much better performance -- up to 40 times faster. If you need smashing performance, get yourself some Gin. |
-| [beego](https://github.com/astaxie/beego) | **25003** | **4979** | **702** | beego is an open-source, high-performance web framework for the Go programming language. |
-| [echo](https://github.com/labstack/echo) | **18245** | **1619** | **42** | High performance, minimalist Go web framework |
-| [mux](https://github.com/gorilla/mux) | **12859** | **1272** | **20** | A powerful HTTP router and URL matcher for building Go web servers with 🦍 |
+| [gin](https://github.com/gin-gonic/gin) | **42227** | **4853** | **327** | Gin is a HTTP web framework written in Go (Golang). It features a Martini-like API with much better performance -- up to 40 times faster. If you need smashing performance, get yourself some Gin. |
+| [beego](https://github.com/astaxie/beego) | **25008** | **4980** | **703** | beego is an open-source, high-performance web framework for the Go programming language. |
+| [echo](https://github.com/labstack/echo) | **18247** | **1620** | **42** | High performance, minimalist Go web framework |
+| [mux](https://github.com/gorilla/mux) | **12860** | **1273** | **20** | A powerful HTTP router and URL matcher for building Go web servers with 🦍 |
 
 ## Database
 
 | Repo | Stars  | Forks  | Issues | Description |
 | ---- | :----: | :----: | :----: | ----------- |
-| [gorm](https://github.com/go-gorm/gorm) | **21042** | **2387** | **6** | The fantastic ORM library for Golang, aims to be developer friendly |
-| [dgraph](https://github.com/dgraph-io/dgraph) | **14071** | **1023** | **110** | Native GraphQL Database with graph backend |
+| [gorm](https://github.com/go-gorm/gorm) | **21048** | **2388** | **6** | The fantastic ORM library for Golang, aims to be developer friendly |
+| [dgraph](https://github.com/dgraph-io/dgraph) | **14070** | **1023** | **110** | Native GraphQL Database with graph backend |
 | [mongo-go-driver](https://github.com/mongodb/mongo-go-driver) | **4917** | **546** | **2** | The Go driver for MongoDB |
 
 ## Golang
