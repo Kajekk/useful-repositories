@@ -7,8 +7,8 @@
 
 | Repo | Stars  | Forks  | Issues | Description |
 | ---- | :----: | :----: | :----: | ----------- |
-| [gin](https://github.com/gin-gonic/gin) | **42413** | **4862** | **327** | Gin is a HTTP web framework written in Go (Golang). It features a Martini-like API with much better performance -- up to 40 times faster. If you need smashing performance, get yourself some Gin. |
-| [beego](https://github.com/astaxie/beego) | **25054** | **4983** | **692** | beego is an open-source, high-performance web framework for the Go programming language. |
+| [gin](https://github.com/gin-gonic/gin) | **42418** | **4864** | **327** | Gin is a HTTP web framework written in Go (Golang). It features a Martini-like API with much better performance -- up to 40 times faster. If you need smashing performance, get yourself some Gin. |
+| [beego](https://github.com/astaxie/beego) | **25056** | **4983** | **693** | beego is an open-source, high-performance web framework for the Go programming language. |
 | [echo](https://github.com/labstack/echo) | **18273** | **1625** | **44** | High performance, minimalist Go web framework |
 | [mux](https://github.com/gorilla/mux) | **12897** | **1276** | **21** | A powerful HTTP router and URL matcher for building Go web servers with 🦍 |
 
@@ -16,9 +16,9 @@
 
 | Repo | Stars  | Forks  | Issues | Description |
 | ---- | :----: | :----: | :----: | ----------- |
-| [gorm](https://github.com/go-gorm/gorm) | **21170** | **2392** | **9** | The fantastic ORM library for Golang, aims to be developer friendly |
-| [dgraph](https://github.com/dgraph-io/dgraph) | **14103** | **1030** | **119** | Native GraphQL Database with graph backend |
-| [mongo-go-driver](https://github.com/mongodb/mongo-go-driver) | **4935** | **547** | **2** | The Go driver for MongoDB |
+| [gorm](https://github.com/go-gorm/gorm) | **21172** | **2391** | **13** | The fantastic ORM library for Golang, aims to be developer friendly |
+| [dgraph](https://github.com/dgraph-io/dgraph) | **14105** | **1030** | **119** | Native GraphQL Database with graph backend |
+| [mongo-go-driver](https://github.com/mongodb/mongo-go-driver) | **4936** | **547** | **2** | The Go driver for MongoDB |
 
 ## Golang
 
