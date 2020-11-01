@@ -7,23 +7,23 @@
 
 | Repo | Stars  | Forks  | Issues | Description |
 | ---- | :----: | :----: | :----: | ----------- |
-| [gin](https://github.com/gin-gonic/gin) | **42745** | **4904** | **329** | Gin is a HTTP web framework written in Go (Golang). It features a Martini-like API with much better performance -- up to 40 times faster. If you need smashing performance, get yourself some Gin. |
-| [beego](https://github.com/astaxie/beego) | **25137** | **4995** | **686** | beego is an open-source, high-performance web framework for the Go programming language. |
-| [echo](https://github.com/labstack/echo) | **18352** | **1635** | **49** | High performance, minimalist Go web framework |
-| [mux](https://github.com/gorilla/mux) | **12982** | **1277** | **22** | A powerful HTTP router and URL matcher for building Go web servers with 🦍 |
+| [gin](https://github.com/gin-gonic/gin) | **42845** | **4915** | **329** | Gin is a HTTP web framework written in Go (Golang). It features a Martini-like API with much better performance -- up to 40 times faster. If you need smashing performance, get yourself some Gin. |
+| [beego](https://github.com/astaxie/beego) | **25155** | **5000** | **686** | beego is an open-source, high-performance web framework for the Go programming language. |
+| [echo](https://github.com/labstack/echo) | **18368** | **1641** | **49** | High performance, minimalist Go web framework |
+| [mux](https://github.com/gorilla/mux) | **13005** | **1278** | **22** | A powerful HTTP router and URL matcher for building Go web servers with 🦍 |
 
 ## Database
 
 | Repo | Stars  | Forks  | Issues | Description |
 | ---- | :----: | :----: | :----: | ----------- |
-| [gorm](https://github.com/go-gorm/gorm) | **21334** | **2411** | **9** | The fantastic ORM library for Golang, aims to be developer friendly |
-| [dgraph](https://github.com/dgraph-io/dgraph) | **14159** | **1036** | **119** | Native GraphQL Database with graph backend |
-| [mongo-go-driver](https://github.com/mongodb/mongo-go-driver) | **4982** | **553** | **3** | The Go driver for MongoDB |
+| [gorm](https://github.com/go-gorm/gorm) | **21382** | **2418** | **11** | The fantastic ORM library for Golang, aims to be developer friendly |
+| [dgraph](https://github.com/dgraph-io/dgraph) | **14178** | **1038** | **119** | Native GraphQL Database with graph backend |
+| [mongo-go-driver](https://github.com/mongodb/mongo-go-driver) | **4990** | **555** | **3** | The Go driver for MongoDB |
 
 ## Golang
 
 | Repo | Stars  | Forks  | Issues | Description |
 | ---- | :----: | :----: | :----: | ----------- |
-| [ristretto](https://github.com/dgraph-io/ristretto) | **2404** | **126** | **9** | A high performance memory-bound Go cache |
-| [progressbar](https://github.com/schollz/progressbar) | **1394** | **83** | **8** | A really basic thread-safe progress bar for Golang applications |
+| [ristretto](https://github.com/dgraph-io/ristretto) | **2416** | **126** | **9** | A high performance memory-bound Go cache |
+| [progressbar](https://github.com/schollz/progressbar) | **1402** | **84** | **6** | A really basic thread-safe progress bar for Golang applications |
 | [remember-go](https://github.com/rocketlaunchr/remember-go) | **65** | **5** | **0** | Cache Slow Database Queries |
